@@ -9,13 +9,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Inherit from emerald device
 $(call inherit-product, device/xiaomi/emerald/device.mk)
 
 PRODUCT_DEVICE := emerald
-PRODUCT_NAME := lineage_emerald
+PRODUCT_NAME := halcyon_emerald
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23117RA68G
 PRODUCT_MANUFACTURER := xiaomi

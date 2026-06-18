@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_emerald.mk
+    $(LOCAL_DIR)/halcyon_emerald.mk
