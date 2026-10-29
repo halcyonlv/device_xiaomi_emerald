@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     MtkInCallService \
-    XiaomiDolby
+    HalcyonDolby
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
